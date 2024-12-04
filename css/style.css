@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5555f8;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.to-do {
+    text-align: center;
+    background-color: #ffffff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.tasks-wrapper {
+    align-items: center;
+    text-decoration: none;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: rgb(133, 133, 255);
+}
+
+ol {
+    list-style-type: none;
+}
+
+#to-do__form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+#to-do__input {
+    background-color: #ffffff;
+    border: rgb(133, 133, 255) 2px solid;
+    padding: 5px 10px;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn {
+    border: rgb(133, 133, 255) 2px solid;
+    border-radius: 7px;
+    padding: 5px 10px;
+    background-color: rgb(133, 133, 255);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
